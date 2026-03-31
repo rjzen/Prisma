@@ -1,5 +1,30 @@
-node_modules
-# Keep environment variables out of version control
-.env
+# Dependencies
+node_modules/
 
-/generated/prisma
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Prisma generated client
+generated/
+
+# Prisma migrations lock (optional, some prefer to commit this)
+# prisma/migrations/
+
+# TypeScript compiled output
+dist/
+build/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
